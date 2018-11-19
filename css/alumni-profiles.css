@@ -1,0 +1,352 @@
+/*******************************************************/
+/************** OpenHSU Alumni Profiles ****************/
+/*******************************************************/
+
+
+/* General styles */
+
+.view-alumni-profiles a, .alumni-profiles a {
+  text-decoration: none;
+}
+.view-alumni-profiles a:hover, .alumni-profiles a:hover{
+  text-decoration: none;
+}
+
+
+/***************** Full Width View Pane General ******************/
+.alumni-view-full-width {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  width: 100vw;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px 0 50px;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
+}
+
+.alumni-view-full-width .view-content {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; 
+}
+
+.alumni-view-full-width > .view-content:before, .alumni-view-full-width > .view-content:after {
+  content: " ";
+  display: table; 
+}
+
+.alumni-view-full-width > .view-content:after {
+  clear: both; 
+}
+  @media (min-width: 768px) {
+    .alumni-view-full-width > .view-content {
+      width: 750px;
+    } 
+  }
+  @media (min-width: 992px) {
+    .alumni-view-full-width > .view-content {
+      width: 970px;
+    } 
+  }
+  @media (min-width: 1200px) {
+    .alumni-view-full-width > .view-content {
+      width: 1230px; 
+    } 
+  }
+
+
+/* title */
+.alumni-full-width-title {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  width: 100vw;
+  padding:10px 15px;
+  text-align: left;
+  max-width: 100% !important;
+  margin-bottom: 50px;
+  
+}
+
+.alumni-full-width-title h4.title-text {
+  max-width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .alumni-full-width-title h4.title-text {
+    text-align: left;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0 0 0 125px;
+  }
+}
+
+/* text and button */
+.alumni-view-full-width h1, .alumni-view-full-width h2, .alumni-view-full-width h3, .alumni-view-full-width h4, .alumni-view-full-width h5, .alumni-view-full-width h6, .alumni-view-full-width p, .alumni-view-full-width li {
+  margin: 10px 0;
+  max-width: 1000px;
+}
+
+.alumni-view-full-width.dark .btn {  
+  min-width: 200px;
+}
+
+
+/* photo */
+.alumni-view-full-width img, .alumni-profile-people-page img {
+  border-radius: 50%;
+  float: none;
+  margin: 0px auto;
+  border: 3px solid  #fff;
+  -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.45);
+  -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.45);
+  box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.45);
+}
+
+@media (min-width: 768px) {
+.alumni-view-full-width img {
+    float: right;
+    margin: 10px 20px 20px;
+  }
+}
+
+
+/************* Full width dark **************/
+
+.alumni-view-full-width.dark {
+  background: #5c8021;
+}
+
+.dark .alumni-full-width-title {
+  background: #fff;
+}
+
+.dark .alumni-full-width-title h4.title-text {
+  color: #25551b !important;
+}
+
+.alumni-view-full-width.dark h1, .alumni-view-full-width.dark h2, .alumni-view-full-width.dark h3, .alumni-view-full-width.dark h4, .alumni-view-full-width.dark h5, .alumni-view-full-width.dark h6, .alumni-view-full-width.dark p, .alumni-view-full-width.dark li {
+  color: #fff !important;
+}
+
+.alumni-view-full-width.dark a:link, .alumni-view-full-width.dark a:visited, .alumni-view-full-width.dark a:hover {
+  color: #fff;
+}
+
+.alumni-view-full-width.dark .btn {
+  background: #25551b;  
+  border: 1px solid #fff;
+}
+
+.alumni-view-full-width.dark .btn:hover {
+    background: #fff;
+    color: #25551b;
+}
+
+
+/************* Full width light **************/
+
+.alumni-view-full-width.light {
+  background: #f6f6f6;
+}
+.light .alumni-full-width-title {
+  background: #5c8021;
+}
+
+.light .alumni-full-width-title h4.title-text {
+  color: #fff !important;
+}
+
+.alumni-view-full-width.light h1, .alumni-view-full-width.light h2, .alumni-view-full-width.light h3, .alumni-view-full-width.light h4, .alumni-view-full-width.light h5, .alumni-view-full-width.light h6, .alumni-view-full-width.light p, .alumni-view-full-width.light li {
+  color: #25551b !important;
+}
+
+.alumni-profile-photo {
+  width: 310px;
+  margin: 0px auto;
+}
+
+@media (min-width: 768px) {
+  .alumni-profile-photo {
+    width: 200px;
+    margin: 0px auto;
+  }
+}
+
+
+/* Alumni Profile Card View General */
+
+.alumni-profile-view-cards {
+  margin: 50px 0 30px;
+}
+
+.alumni-card {
+  margin: 0px auto 30px;
+  padding: 20px 30px;
+  min-height: 0;
+  max-width: 340px;
+  background: #efefef;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.45);
+}
+
+.two-up .views-row:nth-child(odd) {
+  clear: left;
+}
+
+@media (min-width: 992px) {
+  .page-alumni-profiles .four-up .views-row:nth-child(3n+1) {
+    clear: left;
+  }
+}
+@media (min-width: 1200px) {
+  .page-alumni-profiles .four-up .views-row:nth-child(3n+1) {
+    clear: none;
+  }
+}
+
+.alumni-card-info {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 20px;
+}
+
+.alumni-card-button {
+  transition: .5s;
+  transform: scale(1);
+  background: #28767D;
+  padding: 10px 0;
+  text-align: center;
+  display: block;
+  border-radius: 4px;  
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.45);
+}
+.alumni-card-button a {
+   color: #fff;
+}
+.alumni-card h1, .alumni-card h2, .alumni-card h3, .alumni-card h4, .alumni-card h5, .alumni-card h6 {
+  color: #000;
+  margin-top: 0;
+  text-align:center;
+}
+.alumni-card p {
+  font-size: 16px;
+  margin: 0 0 10px;
+  line-height: 1.25em;
+  text-align:center;
+}
+/* .alumni-card:hover {
+  transform: scale(1.025);
+  color: #13464A;
+  background: #eee;
+} */
+
+.alumni-card-photo {
+  max-width: 200px;
+  margin: 15px auto 30px;
+}
+
+.alumni-card-photo img {
+  min-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.45);
+}
+
+/* Alumni card media queries */
+@media (min-width: 768px) {
+  .alumni-profile-view-cards {
+  margin: 30px 0 0;
+  }
+  .alumni-card-info {
+    min-height: 175px;
+  }
+}
+@media (min-width: 992px) {
+  .alumni-profile-view-cards {
+  margin: 30px 0 0;
+  }
+  .alumni-card-info {
+    min-height: 175px;
+ 
+  }
+}
+@media (min-width: 1200px) {
+  .alumni-profile-view-cards {
+    margin: 30px 0;
+  }
+  .alumni-card-info {
+    min-height: 185px;
+  }
+}
+
+
+/* Panlized page styles (.../alumni-profile/*) */
+
+.alumni-profile .alumni-profile-list {
+   padding-bottom: 10px;
+   border-bottom: 1px solid #ccc;
+}
+
+.alumni-profile .info {
+  margin-top: 30px;
+}
+
+.alumni-profile .alumni-photo img {
+    margin: 0px auto 50px !important;
+}
+
+.alumni-profile .photo img {
+    display: inline;
+    width: 250px;
+}
+
+.alumni-profile .field-label {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+}
+.alumni-profile .name .field-label, .alumni-profile .job-title .field-label, .alumni-profile .employer .field-label, .alumni-profile .year .field-label, .alumni-profile .degree .field-label, .alumni-profile .concentration .field-label, .alumni-profile .submitted .field-label {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.alumni-profile .field-item {
+  margin-bottom: 20px;
+}
+
+.alumni-profile .name .field-item, .alumni-profile .job-title .field-item, .alumni-profile .employer .field-item, .alumni-profile .year .field-item, .alumni-profile .degree .field-item, .alumni-profile .concentration .field-item {
+  margin-bottom: 0px;
+}
+
+.alumni-profile .name {
+  font-size: 28px;
+}
+
+.alumni-profile .year, .alumni-profile .degree, .alumni-profile .job-title, .alumni-profile .employer {
+  padding: 0 0 8px;
+}
+
+.alumni-profile .job-title {
+    /* text-transform: uppercase; */
+    font-size: 20px;
+}
+
+.alumni-profile .year {
+  /* font-size: 18px;
+  padding: 0 0 20px; */
+}
+
+.alumni-profile .employer a:after {
+  font: normal normal normal 16px/1 FontAwesome;
+  content: " \f08e";
+}
