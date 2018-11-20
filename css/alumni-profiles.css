@@ -161,7 +161,7 @@
 }
 
 .alumni-view-full-width.light h1, .alumni-view-full-width.light h2, .alumni-view-full-width.light h3, .alumni-view-full-width.light h4, .alumni-view-full-width.light h5, .alumni-view-full-width.light h6, .alumni-view-full-width.light p, .alumni-view-full-width.light li {
-  color: #25551b !important;
+  color: #333;
 }
 
 .alumni-profile-photo {
