@@ -80,7 +80,7 @@ function hsu_alumni_profiles_views_default_views() {
   $handler->display->display_options['fields']['field_profile_photo']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_photo']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_profile_photo']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'square',
     'image_link' => '',
   );
   /* Field: Content: Profile Image */
@@ -202,7 +202,7 @@ function hsu_alumni_profiles_views_default_views() {
   $handler->display->display_options['fields']['field_profile_photo']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_photo']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_profile_photo']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'panopoly_image_square',
     'image_link' => '',
   );
   /* Field: Content: Degree or credential */
@@ -383,7 +383,7 @@ function hsu_alumni_profiles_views_default_views() {
   $handler->display->display_options['fields']['field_profile_photo']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_photo']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_profile_photo']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'panopoly_image_square',
     'image_link' => '',
   );
   /* Field: Content: Degree or credential */
@@ -531,7 +531,7 @@ function hsu_alumni_profiles_views_default_views() {
   $handler->display->display_options['fields']['field_profile_photo']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_photo']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_profile_photo']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'panopoly_image_square',
     'image_link' => '',
   );
   /* Field: Content: Title */
@@ -709,7 +709,7 @@ function hsu_alumni_profiles_views_default_views() {
   $handler->display->display_options['fields']['field_profile_photo']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_photo']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_profile_photo']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'panopoly_image_square',
     'image_link' => '',
   );
   /* Field: Content: Title */
@@ -1002,7 +1002,7 @@ function hsu_alumni_profiles_views_default_views() {
   $handler->display->display_options['fields']['field_profile_photo']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_photo']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_profile_photo']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'panopoly_image_square',
     'image_link' => '',
   );
   /* Field: Content: Title */
