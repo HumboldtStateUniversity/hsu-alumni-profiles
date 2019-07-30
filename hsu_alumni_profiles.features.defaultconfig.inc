@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * hsu_alumni_profiles.features.defaultconfig.inc
@@ -1765,7 +1766,7 @@ function hsu_alumni_profiles_defaultconfig_field_default_fields() {
 /**
  * Implements hook_defaultconfig_field_group_info().
  */
-function openhsu_alumni_profiles_defaultconfig_field_group_info() {
+function hsu_alumni_profiles_defaultconfig_field_group_info() {
   $field_groups = array();
 
   $field_group = new stdClass();
@@ -1905,7 +1906,7 @@ function openhsu_alumni_profiles_defaultconfig_field_group_info() {
 /**
  * Implements hook_defaultconfig_panelizer_defaults().
  */
-function openhsu_alumni_profiles_defaultconfig_panelizer_defaults() {
+function hsu_alumni_profiles_defaultconfig_panelizer_defaults() {
   $export = array();
 
   return $export;
@@ -1914,7 +1915,7 @@ function openhsu_alumni_profiles_defaultconfig_panelizer_defaults() {
 /**
  * Implements hook_defaultconfig_strongarm().
  */
-function openhsu_alumni_profiles_defaultconfig_strongarm() {
+function hsu_alumni_profiles_defaultconfig_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();
@@ -2017,7 +2018,7 @@ function openhsu_alumni_profiles_defaultconfig_strongarm() {
 /**
  * Implements hook_defaultconfig_user_default_permissions().
  */
-function openhsu_alumni_profiles_defaultconfig_user_default_permissions() {
+function hsu_alumni_profiles_defaultconfig_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'administer panelizer node alumni_profile breadcrumbs'.
@@ -2120,7 +2121,7 @@ function openhsu_alumni_profiles_defaultconfig_user_default_permissions() {
 /**
  * Implements hook_defaultconfig_views_default_views().
  */
-function openhsu_alumni_profiles_defaultconfig_views_default_views() {
+function hsu_alumni_profiles_defaultconfig_views_default_views() {
   $export = array();
 
   $view = new view();
@@ -2315,7 +2316,7 @@ function openhsu_alumni_profiles_defaultconfig_views_default_views() {
   $handler->display->display_options['fields']['field_profile_photo']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_photo']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_profile_photo']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'panopoly_image_square',
     'image_link' => '',
   );
   /* Field: Content: Degree or credential */
@@ -2496,7 +2497,7 @@ function openhsu_alumni_profiles_defaultconfig_views_default_views() {
   $handler->display->display_options['fields']['field_profile_photo']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_photo']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_profile_photo']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'panopoly_image_square',
     'image_link' => '',
   );
   /* Field: Content: Degree or credential */
@@ -2597,6 +2598,12 @@ function openhsu_alumni_profiles_defaultconfig_views_default_views() {
   $handler->display->display_options['title'] = '<none>';
   $handler->display->display_options['defaults']['css_class'] = FALSE;
   $handler->display->display_options['css_class'] = 'alumni-profile-view-cards clearfix row two-up';
+  $handler->display->display_options['defaults']['use_more'] = FALSE;
+  $handler->display->display_options['defaults']['use_more_always'] = FALSE;
+  $handler->display->display_options['defaults']['use_more_always'] = FALSE;
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['defaults']['use_more_text'] = FALSE;
+  $handler->display->display_options['use_more_text'] = 'View All Alumni Profiles';
   $handler->display->display_options['defaults']['pager'] = FALSE;
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '6';
@@ -2644,7 +2651,7 @@ function openhsu_alumni_profiles_defaultconfig_views_default_views() {
   $handler->display->display_options['fields']['field_profile_photo']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_photo']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_profile_photo']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'panopoly_image_square',
     'image_link' => '',
   );
   /* Field: Content: Title */
@@ -2822,7 +2829,7 @@ function openhsu_alumni_profiles_defaultconfig_views_default_views() {
   $handler->display->display_options['fields']['field_profile_photo']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_photo']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_profile_photo']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'panopoly_image_square',
     'image_link' => '',
   );
   /* Field: Content: Title */
@@ -2990,7 +2997,7 @@ function openhsu_alumni_profiles_defaultconfig_views_default_views() {
   $handler->display->display_options['fields']['field_profile_photo']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_photo']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_profile_photo']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'panopoly_image_square',
     'image_link' => '',
   );
   /* Field: Content: Job Title */
@@ -3115,7 +3122,7 @@ function openhsu_alumni_profiles_defaultconfig_views_default_views() {
   $handler->display->display_options['fields']['field_profile_photo']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_photo']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_profile_photo']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'panopoly_image_square',
     'image_link' => '',
   );
   /* Field: Content: Title */

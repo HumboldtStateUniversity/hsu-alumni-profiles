@@ -76,7 +76,6 @@ features[defaultconfig][] = user_default_permissions:import profile_alumni feeds
 features[defaultconfig][] = user_default_permissions:unlock profile_alumni feeds
 features[defaultconfig][] = views_default_views:alumni_profiles
 features[features_api][] = api:2
-features[feeds_importer][] = profile_alumni
 features[field_base][] = field_profile_alternative_degree
 features[field_base][] = field_profile_comments
 features[field_base][] = field_profile_concentration

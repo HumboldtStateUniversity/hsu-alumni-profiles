@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * hsu_alumni_profiles.panelizer.inc
@@ -98,7 +99,7 @@ padding-top: 50px;
     'delta_reversed' => FALSE,
     'formatter_settings' => array(
       'file_view_mode' => 'default',
-      'image_style' => 'hsu_people_w280',
+      'image_style' => 'panopoly_image_square',
       'image_link' => '',
     ),
     'context' => array(),
@@ -363,7 +364,7 @@ padding-top: 50px;
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'label' => 'inline',
+    'label' => 'title',
     'formatter' => 'text_default',
     'delta_limit' => 0,
     'delta_offset' => '0',
@@ -371,8 +372,8 @@ padding-top: 50px;
     'formatter_settings' => array(),
     'context' => array(),
     'override_title' => 0,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
+    'override_title_text' => 'Job Description',
+    'override_title_heading' => 'h4',
   );
   $pane->cache = array();
   $pane->style = array(
@@ -483,7 +484,7 @@ padding-top: 50px;
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'label' => 'above',
+    'label' => 'title',
     'formatter' => 'text_default',
     'delta_limit' => 0,
     'delta_offset' => '0',
