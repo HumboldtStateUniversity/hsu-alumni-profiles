@@ -95,5 +95,14 @@ function hsu_alumni_profiles_user_default_permissions() {
     'module' => 'feeds',
   );
 
+  // Exported permission: 'use PHP for title patterns'.
+  $permissions['use PHP for title patterns'] = array(
+    'name' => 'use PHP for title patterns',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'auto_nodetitle',
+  );
+
   return $permissions;
 }

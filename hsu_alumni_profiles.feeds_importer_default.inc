@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * hsu_alumni_profiles.feeds_importer_default.inc
@@ -238,33 +239,57 @@ function hsu_alumni_profiles_feeds_importer_default() {
             'language' => 'und',
           ),
           11 => array(
-            'source' => 'student_advice',
-            'target' => 'field_profile_student_advice',
-            'unique' => FALSE,
-            'language' => 'und',
-          ),
-          12 => array(
             'source' => 'photo',
             'target' => 'field_profile_photo:uri',
             'unique' => FALSE,
             'language' => 'und',
           ),
-          13 => array(
+          12 => array(
             'source' => 'photo_alt',
             'target' => 'field_profile_photo:alt',
             'unique' => FALSE,
             'language' => 'und',
           ),
-          14 => array(
+          13 => array(
             'source' => 'submitted_date',
             'target' => 'field_profile_submitted_date',
+            'unique' => FALSE,
+            'language' => 'und',
+          ),
+          14 => array(
+            'source' => 'why_program_chosen',
+            'target' => 'field_profile_program_choose',
+            'unique' => FALSE,
+            'language' => 'und',
+          ),
+          15 => array(
+            'source' => 'how_program_prepared',
+            'target' => 'field_profile_program_prepare',
+            'unique' => FALSE,
+            'language' => 'und',
+          ),
+          16 => array(
+            'source' => 'what_enjoyed',
+            'target' => 'field_profile_program_enjoy',
+            'unique' => FALSE,
+            'language' => 'und',
+          ),
+          17 => array(
+            'source' => 'comments',
+            'target' => 'field_profile_comments',
+            'unique' => FALSE,
+            'language' => 'und',
+          ),
+          18 => array(
+            'source' => 'student_advice',
+            'target' => 'field_profile_program_recommend',
             'unique' => FALSE,
             'language' => 'und',
           ),
         ),
         'insert_new' => '1',
         'update_existing' => '2',
-        'update_non_existent' => 'skip',
+        'update_non_existent' => 'delete',
         'input_format' => 'plain_text',
         'skip_hash_check' => 0,
         'bundle' => 'alumni_profile',

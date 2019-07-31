@@ -485,12 +485,6 @@ function hsu_alumni_profiles_views_default_views() {
   $handler->display->display_options['title'] = '<none>';
   $handler->display->display_options['defaults']['css_class'] = FALSE;
   $handler->display->display_options['css_class'] = 'alumni-profile-view-cards clearfix row two-up';
-  $handler->display->display_options['defaults']['use_more'] = FALSE;
-  $handler->display->display_options['defaults']['use_more_always'] = FALSE;
-  $handler->display->display_options['defaults']['use_more_always'] = FALSE;
-  $handler->display->display_options['use_more_always'] = FALSE;
-  $handler->display->display_options['defaults']['use_more_text'] = FALSE;
-  $handler->display->display_options['use_more_text'] = 'View All Alumni Profiles';
   $handler->display->display_options['defaults']['pager'] = FALSE;
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '6';
@@ -884,7 +878,7 @@ function hsu_alumni_profiles_views_default_views() {
   $handler->display->display_options['fields']['field_profile_photo']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_photo']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_profile_photo']['settings'] = array(
-    'image_style' => 'panopoly_image_square',
+    'image_style' => '',
     'image_link' => '',
   );
   /* Field: Content: Job Title */
