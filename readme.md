@@ -1,8 +1,9 @@
 # HSU Alumni Profiles
-Drupal 7: Add a feeds importer, content type, and views, for displaying alumni profiles on your website.
+Drupal 7: This feature adds an alumni profile content type, feeds importer, and several views for displaying HSU Alumni Profiles on your OpenHSU website.
 
-This module, created using Features, creates a content type for alumni profiles. In addition it creates a feeds importer and a view to display the profiles.
+Profile submissions can be made here https://www.humboldt.edu/new-alumni-profile
 
+This feature should be used with the OpenHSU platform only.
 
 ##Install
 
