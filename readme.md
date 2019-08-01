@@ -18,7 +18,7 @@ hsu_alumni_profiles (this repo)<br>
 Place this file in sites/all/libraries/jsonpath/jsonpath.php
     
 ## Instructions
-1. Download this [Drush make file] (https://gist.github.com/jeniferfitch/b555e01d15cb7518af1c4a552a7d8649)
+1. Download this [Drush make file](https://gist.github.com/jeniferfitch/b555e01d15cb7518af1c4a552a7d8649)
 2. Place hsu_alumni_profiles.make.yml in the root of your the sites repo
 3. Run `drush make --no-core hsu_alumni_profiles.make.yml` This puts the correct modules and jsonpath libraries in the right place. 
 4. Enable the module 
