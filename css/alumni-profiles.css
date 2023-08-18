@@ -117,7 +117,7 @@
 /************* Full width dark **************/
 
 .alumni-view-full-width.dark {
-  background: #5c8021;
+  background: #00856A;
 }
 
 .dark .alumni-full-width-title {
@@ -125,7 +125,7 @@
 }
 
 .dark .alumni-full-width-title h4.title-text {
-  color: #25551b !important;
+  color: #004C46 !important;
 }
 
 .alumni-view-full-width.dark h1, .alumni-view-full-width.dark h2, .alumni-view-full-width.dark h3, .alumni-view-full-width.dark h4, .alumni-view-full-width.dark h5, .alumni-view-full-width.dark h6, .alumni-view-full-width.dark p, .alumni-view-full-width.dark li {
@@ -137,23 +137,24 @@
 }
 
 .alumni-view-full-width.dark .btn {
-  background: #25551b;
+  background: #FFC72C;
   border: 1px solid #fff;
+  color: #004C46 !important;
 }
 
 .alumni-view-full-width.dark .btn:hover {
   background: #fff;
-  color: #25551b;
+  color: #004C46;
 }
 
 
 /************* Full width light **************/
 
 .alumni-view-full-width.light {
-  background: #f6f6f6;
+  background: #FFFFFF;
 }
 .light .alumni-full-width-title {
-  background: #5c8021;
+  background: #00856A;
 }
 
 .light .alumni-full-width-title h4.title-text {
@@ -161,7 +162,7 @@
 }
 
 .alumni-view-full-width.light h1, .alumni-view-full-width.light h2, .alumni-view-full-width.light h3, .alumni-view-full-width.light h4, .alumni-view-full-width.light h5, .alumni-view-full-width.light h6, .alumni-view-full-width.light p, .alumni-view-full-width.light li {
-  color: #333;
+  color: #004C46;
 }
 
 .alumni-profile-photo {
@@ -188,7 +189,7 @@
   padding: 20px 30px;
   min-height: 0;
   max-width: 340px;
-  background: #efefef;
+  background: #FFFFFF;
   border-radius: 10px;
   -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
   -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
@@ -201,11 +202,13 @@
 
 @media (min-width: 768px) and (max-width:991px) {
   .page-alumni-profiles .four-up .views-row:nth-child(2n+1) {
-    clear: left;
+    clear:left;
   }
+
   .page-alumni-profiles .four-up .views-row:nth-child(3n+1) {
     clear: none;
   }
+
   .page-alumni-profiles .four-up .views-row:nth-child(4n+1) {
     clear: none;
   }
@@ -213,11 +216,13 @@
 
 @media (min-width: 992px) and (max-width:1199px) {
   .page-alumni-profiles .four-up .views-row:nth-child(2n+1) {
-    clear: none;
+    clear:none;
   }
+
   .page-alumni-profiles .four-up .views-row:nth-child(3n+1) {
     clear: left;
   }
+
   .page-alumni-profiles .four-up .views-row:nth-child(4n+1) {
     clear: none;
   }
@@ -225,26 +230,27 @@
 
 @media (min-width: 1200px) {
   .page-alumni-profiles .four-up .views-row:nth-child(2n+1) {
-    clear: none;
+    clear:none;
   }
+
   .page-alumni-profiles .four-up .views-row:nth-child(3n+1) {
     clear: none;
   }
+
   .page-alumni-profiles .four-up .views-row:nth-child(4n+1) {
     clear: left;
   }
 }
 
-
 .alumni-card-info {
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #004C46;
   margin-bottom: 20px;
 }
 
 .alumni-card-button {
   transition: .5s;
   transform: scale(1);
-  background: #28767D;
+  background: #004C46;
   padding: 10px 0;
   text-align: center;
   display: block;
@@ -257,7 +263,7 @@
   color: #fff;
 }
 .alumni-card h1, .alumni-card h2, .alumni-card h3, .alumni-card h4, .alumni-card h5, .alumni-card h6 {
-  color: #000;
+  color: #004C46;
   margin-top: 0;
   text-align:center;
 }
@@ -320,7 +326,7 @@
 
 .alumni-profile .alumni-profile-list {
   padding-bottom: 10px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #004C46;
 }
 
 .alumni-profile .info {
