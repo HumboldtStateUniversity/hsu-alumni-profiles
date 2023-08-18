@@ -19,6 +19,7 @@ dependencies[] = strongarm
 dependencies[] = text
 dependencies[] = views
 dependencies[] = views_content
+dependencies[] = xautoload
 stylesheets[all][] = css/alumni-profiles.css
 features[ctools][] = feeds:feeds_importer_default:1
 features[ctools][] = field_group:field_group:1
