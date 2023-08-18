@@ -268,7 +268,7 @@ function hsu_alumni_profiles_views_default_views() {
     <a href="/node/[nid]">[field_profile_photo]</a>
   </div>
   <div class="col-xs-8">
-    <h3 style="text-align:center"><a href="/node/[nid]">[title], [field_profile_year_graduated]</a></h3>
+    <h3><a href="/node/[nid]">[title], [field_profile_year_graduated]</a></h3>
     <h5>[field_profile_job_title], [field_profile_employer]</h5>
     <p>[field_profile_job_description]</p>
     <div class="row"><div class="col-lg-4 col-md-5"><p>[title_1]</p></div></div>
@@ -449,7 +449,7 @@ function hsu_alumni_profiles_views_default_views() {
     <a href="/node/[nid]">[field_profile_photo]</a>
   </div>
   <div class="col-xs-8">
-    <h3 style="text-align:center"><a href="/node/[nid]">[title], [field_profile_year_graduated]</a></h3>
+    <h3><a href="/node/[nid]">[title], [field_profile_year_graduated]</a></h3>
     <h5>[field_profile_job_title], [field_profile_employer]</h5>
     <p>[field_profile_job_description]</p>
     <div class="row"><div class="col-lg-4 col-md-5"><p>[title_1]</p></div></div>
