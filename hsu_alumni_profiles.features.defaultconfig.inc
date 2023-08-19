@@ -166,7 +166,7 @@ function hsu_alumni_profiles_defaultconfig_field_default_fields() {
           'enable' => 0,
           'profile' => '',
         ),
-        'text_processing' => 0,
+        'text_processing' => 1,
         'user_register_form' => FALSE,
       ),
       'widget' => array(
