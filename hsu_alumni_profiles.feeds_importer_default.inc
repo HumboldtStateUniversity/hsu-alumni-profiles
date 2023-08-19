@@ -273,6 +273,7 @@ function hsu_alumni_profiles_feeds_importer_default() {
                         'target' => 'field_profile_comments',
                         'unique' => FALSE,
                         'language' => 'und',
+                        'format' => 'panopoly_html_text',
                     ),
                     18 => array(
                         'source' => 'student_advice',
