@@ -379,6 +379,7 @@
 }
 
 .alumni-profile .employer a:after {
-  font: normal normal normal 16px/1 FontAwesome;
+  font: normal normal normal 16px/1 "Font Awesome 6 Free";
   content: " \f08e";
+  font-weight: 900;
 }
